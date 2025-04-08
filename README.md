@@ -50,7 +50,7 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 - Automatically welcomes new members
 - Posts announcements
 - Monitors group chat information
-- Supports multi-platform management (WeChat, QQ, KakaoTalk, Line)
+- Supports multi-platform management (WeChat, QQ, KakaoTalk, Line,Telegram)
 
 #### AI Customer Service
 - 24/7 automated answers to common questions
