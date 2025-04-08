@@ -75,26 +75,35 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 
 ### 3.1 Core Technical Architecture
 #### AI Model Layer (Bittensor Subnet)
-- Fine-tuned LLMs for:
-  - Customer service
-  - Marketing
-  - Community interaction
-- Miner/Validator tasks:
+- **Data Preparation:**
+  - Select LLMs suitable for dialogue, information extraction, and text generation
+  - Fine-tune models for:
+    - Customer service scenarios
+    - Marketing scenarios
+    - Community interaction scenarios
+  - Train/integrate specific models for:
+    - Potential customer identification
+    - Intent judgment
+
+- **Miner/Validator Tasks:**
   - Run inference
   - Validate output quality
-  - Participate in optimization
+  - Participate in:
+    - Data annotation
+    - Model optimization for specific B2B scenarios
 
 #### Middleware Layer
-- Connects to platform APIs
-- Merchant management backend
-- Content compliance filtering
+- Connects to platform APIs (WeChat, QQ, KakaoTalk, Line)
+- Merchant management backend for:
+  - Configuring knowledge base
+  - Setting rules
+  - Viewing reports
+- Executes strict:
+  - Content compliance filtering
+  - Business logic filtering
 
 #### Platform Interface Layer
 - Adapts to platform API specifications
-
-### 3.2 Multi-Platform Support
-- Adaptive development for different platforms
-
 ## 4. Product Advantages
 - Cost Reduction & Efficiency Boost
 - 24/7 Availability
