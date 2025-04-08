@@ -71,9 +71,35 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 - AI Short Video Generation
 - Intelligent CRM Integration
 
-## 3. Technical Implementation
+## 3. Development Phases
 
-### 3.1 Core Technical Architecture
+### 3.1 Phase 1: Data Cleaning & Dataset Building
+> 🔹 This is the first step of subnet development.
+
+- Collect and clean historical customer service and group data  
+- Convert interactions into Q&A pairs  
+- Annotate data with labels, intent, and sentiment  
+- Use the dataset to train and fine-tune models for customer service scenarios  
+
+---
+
+### 3.2 Phase 2: Model Training & Subnet Setup
+
+- Train LLMs with cleaned datasets  
+- Configure miners/validators within the Bittensor subnet  
+- Prepare benchmark tests to evaluate model response quality and inference speed  
+
+---
+
+### 3.3 Phase 3: Full Integration & User Interaction
+
+- Deploy to actual merchant environments  
+- Use platform adapters to engage customers and group members  
+- Record interaction logs to refine the AI loop  
+
+## 4. Technical Implementation
+
+### 4.1 Core Technical Architecture
 #### AI Model Layer (Bittensor Subnet)
 - **Data Preparation:**
   - Select LLMs suitable for dialogue, information extraction, and text generation
@@ -104,7 +130,7 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 
 #### Platform Interface Layer
 - Adapts to platform API specifications
-## 4. Product Advantages
+## 5. Product Advantages
 - Cost Reduction & Efficiency Boost
 - 24/7 Availability
 - Precise Lead Generation
@@ -112,7 +138,7 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 - Differentiated Positioning
 - High Brand Fit
 
-## 5. Marketing & Execution Plan
+## 6. Marketing & Execution Plan
 
 ### Stage One: Trial Run & Seed User Activation
 **Core Objective:** Validate core functions
@@ -134,7 +160,7 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 - dTAO Swap function
 - Staking mechanism
 
-## 6. Conclusion
+## 7. Conclusion
 
 The project targets core B2B merchant pain points with an integrated AI solution leveraging MIAO's community and Bittensor's Web3 advantages, offering:
 - Cost reduction
