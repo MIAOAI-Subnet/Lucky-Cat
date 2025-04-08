@@ -76,17 +76,15 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
 ### 3.1 Phase 1: Data Cleaning & Dataset Building
 > 🔹 This is the first step of subnet development.
 
-- Collect and clean historical customer service and group data  
+- help merchants clean their historical customer service and group data 
 - Convert interactions into Q&A pairs  
-- Annotate data with labels, intent, and sentiment  
-- Use the dataset to train and fine-tune models for customer service scenarios  
+- Annotate data with labels, intent, and sentiment    
 
 ---
 
-### 3.2 Phase 2: Model Training & Subnet Setup
+### 3.2 Phase 2: Model Training
 
-- Train LLMs with cleaned datasets  
-- Configure miners/validators within the Bittensor subnet  
+- Merchants can use the cleaned datasets to train their AI agents    
 - Prepare benchmark tests to evaluate model response quality and inference speed  
 
 ---
@@ -119,7 +117,7 @@ Multi-platform intelligent marketing customer service Agent for B2B merchants us
     - Model optimization for specific B2B scenarios
 
 #### Middleware Layer
-- Connects to platform APIs (WeChat, QQ, KakaoTalk, Line)
+- Connects to platform APIs (WeChat, QQ, KakaoTalk, Line, Telegram)
 - Merchant management backend for:
   - Configuring knowledge base
   - Setting rules
